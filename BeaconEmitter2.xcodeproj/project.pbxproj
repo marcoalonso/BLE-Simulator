@@ -10,9 +10,22 @@
 		6C8596492CB06E3E0001CB81 /* BeaconEmitter2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconEmitter2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6C8596642CB0703B0001CB81 /* Exceptions for "BeaconEmitter2" folder in "BeaconEmitter2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6C8596482CB06E3E0001CB81 /* BeaconEmitter2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6C85964B2CB06E3E0001CB81 /* BeaconEmitter2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6C8596642CB0703B0001CB81 /* Exceptions for "BeaconEmitter2" folder in "BeaconEmitter2" target */,
+			);
 			path = BeaconEmitter2;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,9 @@
 				DEVELOPMENT_TEAM = V5U53J8M62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeaconEmitter2/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "bluetooth access";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "bluetooth access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +300,9 @@
 				DEVELOPMENT_TEAM = V5U53J8M62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeaconEmitter2/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "bluetooth access";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "bluetooth access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
